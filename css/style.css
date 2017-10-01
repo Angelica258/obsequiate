@@ -1,0 +1,79 @@
+body {
+    font-family: 'Shadows Into Light', cursive;
+    min-height: 90rem; /* Can be removed; just added for demo purposes */
+}
+h1{
+    align-self: center;
+    font-size: 2em;
+}
+p{
+    font-size: 1em;
+    text-align-last: center;
+}
+.info1{
+  background: #FA58F4;
+}
+
+ul li{
+
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+.centrado {
+    margin: 100px 0;
+}
+
+.fa {
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #a51927;
+    border-color: #007bff;
+}
+
+.titulo-login {
+    text-align: center;
+    padding: 20px;
+}
+
+.fomulario {
+    margin: 10px 0;
+    padding: 40px;
+}
+
+.navegacion{
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.album {
+    min-height: 50rem; /* Can be removed; just added for demo purposes */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+}
+
+.card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.card > img {
+    margin-bottom: .75rem;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.card-text {
+    font-size: 85%;
+}

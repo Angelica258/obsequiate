@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Obsequiarte</title>
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="col-12 col-sm-6 col-md-8 navbar-brand titulo" href="index.html">Obsequiarte</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-md-auto">
+
+        </div>
+        <div class="col col-lg-2">
+            <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+            <a href="login.html"><i class="fa fa-user fa-3x" aria-hidden="true"></i></a>
+
+        </div>
+
+
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <form class="fomulario centrado">
+                <div class="alert alert-info">
+                    <strong>Info!</strong> Si tienes alguna pregunta no dudes en contactarnos.  Estaremos atentos a responder cualquier inquietud que tengas.
+                </div>
+                <div class="form-group"> <!-- Full Name -->
+                 <label for="full_name_id" class="control-label">Nombre completo</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombres Apellidos">
+                </div>
+                <div class="form-group"> <!-- Street 2 -->
+                        <label for="street2_id" class="control-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Correo electrónico">
+                    </div>
+                <div class="form-group"> <!-- City-->
+                        <label for="city_id" class="control-label">Mensaje</label>
+                        <textarea class="form-control" rows="5" name="mensaje" placeholder="No omitas detalle para que recibas la mejor orientación. (Máximo 500 caracteres)."></textarea>
+                    </div>
+                <div class="form-group"> <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary">Contactar</button>
+                    </div>
+
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Todos los derechos reservados © Obsequiarte. Aplica tèrminos y condiciones. Pamplona, Norte de Santander</p>
+    </footer>
+
+</div> <!-- /container -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.js"></script>
+<script src="general.js"></script>
+</body>
+</html>
